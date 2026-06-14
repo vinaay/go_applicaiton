@@ -1,0 +1,7 @@
+server:
+  port: 8082
+
+jenkins:
+  url: http://localhost:9090/
+  username: "vinay"
+  token: "115dda92ea99bd9718e306e2a4b35f416a"
