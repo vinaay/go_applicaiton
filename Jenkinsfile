@@ -4,7 +4,8 @@
 buildPipeline(
   appType: 'go',
   imageName: 'example-app',
+  IMAGE_TAG : '1',
   // imageTag omitted to use BUILD_NUMBER by default
-  dockerRepo: 'myregistry.example.com/myrepo',
+  dockerRepo: 'docker.io/vinaay/go',
   dockerCredsId: 'docker-credentials-id'
 )
