@@ -6,6 +6,6 @@ buildPipeline(
   imageName: 'go',
   IMAGE_TAG : '1',
   // imageTag omitted to use BUILD_NUMBER by default
-  dockerRepo: 'vinaay/',
+  dockerRepo: 'vinaay',
   dockerCredsId: 'docker-credentials-id'
 )
